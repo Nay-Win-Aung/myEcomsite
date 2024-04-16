@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <title>နေမိသားစု စတိုး</title>
     <!-- Link to Bootstrap CSS -->
-    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
     <!-- Link to custom CSS -->
     <link rel="stylesheet" href="css/main.css">
     <!-- Viewport meta tag -->
@@ -140,13 +140,13 @@
 
     <!--detail modal-->
 
-    <?php
-    include 'details-modal-levisJeans.php';
-    include 'details-modal-dress.php';
+  
+   <?php  include 'details-modal-watch.php' ?>
+   <?php include 'details-modal-levisJeans.php'?>
+    <?php include 'details-modal-dress.php' ?>
 
-    include 'details-modal-watch.php';
-    ?>
-
+    
+   
 
 
 </body>
