@@ -1,6 +1,4 @@
-"
 <!DOCTYPE html>
-<html>
 <html lang="en">
 
 <head>
@@ -9,14 +7,13 @@
     <!-- Link to Bootstrap CSS -->
     <link rel="stylesheet" href="bootstrap.min.css">
     <!-- Link to custom CSS -->
-    <link rel="stylesheet" href="css\main.css">
+    <link rel="stylesheet" href="css/main.css">
     <!-- Viewport meta tag -->
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
     <!-- jQuery library -->
     <script src="jquery.min.js"></script>
-    <!-- Bootstrap JavaScript -->
     <script src="bootstrap.bundle.min.js"></script>
-    <script src="bootstrap.min.js"></script>
+
 
 </head>
 
@@ -68,7 +65,7 @@
     </nav>
     <!--navbar close-- >
 
-    <! --background images open-->
+    < !-- background images open -->
 
 
     <div id="background-image">
@@ -89,10 +86,10 @@
             <!--Jeans-->
             <div class="col">
                 <h2>Levis Jeans</h2>
-                <img src="images\levis.jpg" alt="Levis Jeans" id="images" />
+                <img src="images/levis.jpg" alt="Levis Jeans" id="images" />
                 <p class="List-price text-danger">List Price: <s>..Kyats</s></p>
                 <p class="Price">Our Price: ..Kyats </p>
-                
+
                 <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#details-1">Details</button>
 
             </div>
@@ -100,19 +97,22 @@
             <!--football-->
             <div class="col">
                 <h2>Dress</h2>
-                <img src="images\dress.png" alt="dress" id="images" />
+                <img src="images/dress.png" alt="dress" id="images" />
                 <p class="List-price text-danger">List Price: <s>..Kyats</s></p>
                 <p class="Price">Our Price: ..Kyats</p>
-                <button type="button" class="btn btn-success" data-bs-toggle="modal" data-target="#details-2"> Details</button>
+
+                <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#details-2">Details</button>
+
+
             </div>
 
             <!--watch-->
             <div class="col">
                 <h2>Watch</h2>
-                <img src="images\Gucci_Watch.jpg" alt="watch" id="images" />
+                <img src="images/Gucci_Watch.jpg" alt="watch" id="images" />
                 <p class="List-price text-danger">List Price: <s>..Kyats</s></p>
                 <p class="Price">Our Price: ..Kyats </p>
-                <button type="button" class="btn btn-success" data-bs-toggle="modal" data-target="#details-3"> Details</button>
+                <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#details-3">Details</button>
             </div>
 
         </div>
@@ -139,36 +139,16 @@
 
 
     <!--detail modal-->
+
     <?php
     include 'details-modal-levisJeans.php';
-   
+    include 'details-modal-dress.php';
+
+    include 'details-modal-watch.php';
     ?>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
 </body>
 
 </html>
-
-
-
